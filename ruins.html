@@ -1,0 +1,371 @@
+<html>
+    <head>
+        <!-- 随缘自适应 -->
+      
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ruinsStillPaid</title>
+        <link rel="stylesheet" href="style.css" />
+        <meta name="author" content="GONG Xinru + LIU Mengzhu + CAI Andong" />
+        
+        <!-- <script src="img.js"></script> -->
+
+        <script type="text/javascript" src="tagcloud.js"></script>
+    		<script src="./jquery-3.4.1.min.js"></script>
+	     	<script src="./layer.js"></script>
+	    	<script src="https://cdn.bootcdn.net/ajax/libs/layer/3.5.1/layer.min.js"></script>
+        <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+        
+       
+     
+    </head>
+
+    <body>
+
+        <div class="container" > 
+            <section id="left" style="padding-left: 7px;">
+                <!-- button -->
+                <div style="position: absolute;left: 0px;" class="Window_close__1FgS-">x</div>
+
+                <h1 style="padding-top: 27px; font-size: 60px;">  👋⚒️</h1>
+                <!-- <h1 >废墟地块</h1> -->
+                <h1 class="typing-demo">¥:***************</h1>
+                
+                <p style="font-size: 13px;">如你所见，我们在网络中挖掘了那些存在超过十年的链接，将它们堆在这里，并对它们的价值进行估算。</p>
+                <!-- <h1 style="font-size: 20px;">地块总价：*****************</h1> -->
+                <div class="marquee" style="overflow:hidden;white-space: normal;background-color: rgb(240, 239, 239);  padding-top:0px ">
+                    <span class="marquee--entry" >
+                        <marquee width:"100% "  behavior:"scroll"  scrollamount="3" align="absmiddle"  class="bla">
+                            欢迎来到在线大废墟！挖走数据，让网络赞美你 SEEK THE RUINS, THAT INTERNET MAY PRAISE YOU. 
+                        </marquee>
+            
+                    </span>
+                </div>
+
+                
+                
+                <div class="lalala" class="kuang" style="padding-top: 20px;padding-left: 30px; ">
+                  
+                  <div class="top_guize" ><a href="#" id="contact_guize" onclick="openWindow(this)" class="kuang" style="color: rgb(253, 253, 253);" >规则<img src="http://www.textfiles.com/underconstruction/HeHeartlandPond8929underconstruction.gif"></a>
+                  </div>  
+                  <div class="top_shuoming"style="padding-top: 10px;" ><a href="#" id="contact_shuoming" onclick="openWindow(this)"class="kuang" style="color: rgb(253, 253, 253);">说明<img src="http://www.textfiles.com/underconstruction/HeHeartlandPond8929underconstruction.gif""></a></div>  
+                </div>
+
+                <div id="light_shuoming" class="white_content"  > 
+                   <img style="width:450px;" src='./img/guize.jpeg' />  
+                </div>
+                <div id="light_guize" class="white_content"  >  
+                   <img style="width:450px;" src='./img/shuo.jpeg' />  
+                </div>
+                <div id="fade" class="black_overlay"  onClick="closeWindow()">
+                </div>
+
+                <script  type="text/javascript">
+                  function openWindow(obj){
+                      var shuoming_or_guize = "light_shuoming";
+                      switch(obj.id)
+                      {
+                          case 'contact_guize':
+                          shuoming_or_guize = "light_guize";
+                          break;
+                          
+                          case 'contact_shuoming':
+                          shuoming_or_guize = "light_shuoming";
+                          break;
+                      }
+                      document.getElementById(shuoming_or_guize).style.display='block';
+                      document.getElementById('fade').style.display='block';
+                  }
+                  function closeWindow(){
+                      document.getElementById('light_guize').style.display='none';
+                      document.getElementById('light_shuoming').style.display='none';
+                      document.getElementById('fade').style.display='none';
+                  }
+              </script>
+                
+
+                <p style="font-size: 7px;padding-top: 12px;">接入互联网的用户每天不停地产生各种数据，这些数据大部分都存储在全球各地数据中心的服务器中。数据也被当作一种资本，成为平台持续扩张的基础。但这些数据中有多少是有效的？有多少曾经活跃的平台成为了废墟？</p>
+                <p style="font-size: 7px;"> 2016年，我国数据中心的保有量为5.6万个，一年耗电量为三峡大坝的1.5倍。
+                    至2019年，我国数据中心的保有量达到7.2万座，全球的数据中心达到42万座。如果按照成本来计算有效率，
+                    服务器平均处理1GB的数据需要2毛钱。《2020年国⺠经济和社会发展统计公报》2020年互联网上网人数为9.89亿人，
+                    全年移动互联网用户接入流量达到1656亿GB。预计2025年时，全球互联网用户每天创建的数据量预计将会高达463EB。
+                    并且随着大量新用户的接入，数据将会持续增加。这意味着需要花费更多的存储空间和电力维护这些数据，
+                    包括停止更新、没有人使用的账号、被遗弃的平台。随着用户迁移到了不同平台，大量被遗留的数据成为连制造者也
+                    懒得清理的垃圾，用户离开了，但是数据依旧存在并且无意义地浪费着资源。按照一人一天生产140GB的数据量来计算，
+                    如果我们将这些“你吃饭了吗”都存储在服务器，每天需要为每位用户多花费约28元人民币。在所有的物质资源中，最大的无疑是土地，
+                    研究一个社会如何使用它的土地，能够在极大程度上对它的未来进行一个有效判断，如今，土地不再是一个实体概念，大平台成为大地主，
+                    富有的国家将抢先占领云层中的土地，这片土地是如何被使用的，它又有如何被使用的可能？</p>
+
+            </section>
+  
+            <section id="middle" > 
+                <!-- <img class="blur" style="position: absolute; left:0px;top:10px" height="1080px" src="./img/111 1.png">                 -->
+
+              <div style="position: relative; padding-top: 0px;">
+                   <!-- <img class="blur" style="position: absolute; left:0px;top:10px" height="1080px" src="./img/111 1.png">    -->
+
+                    <div id="canvas"></div>
+                    <div id="content">
+
+                   
+                        <!-- 拖动 -->
+                        <div id="planes">
+                      
+                          <div class="plane-wrapper">
+                              
+                           <div class="plane" >
+                             <img src="https://i.gifer.com/3Hvu.gif" data-sampler="planeTexture" crossorigin >
+                                                              
+                               
+                                
+                            </div>
+                             
+                            
+
+                              <!-- GIF -->
+                              <img  style="position: absolute;top: 0px;left: 10px;width: 800px;" src="https://raw.githubusercontent.com/patatonottomato/ttttttt1/main/heihei1.png"   />
+                              <img  style="position: absolute;top: 0px;left: 1000px;width: 1000px;" src="https://raw.githubusercontent.com/patatonottomato/ttttttt1/main/画板%202.png"   />
+
+                              <img style="position:absolute;top: 130px;left: 180px;" src="https://media.giphy.com/media/dkQ1CRCVHUaBi/giphy.gif">
+                              <img style="position:absolute;top: 0px;left: 280px;" src="https://media.giphy.com/media/p7ZPDhnKdnih2/giphy.gif">
+                              <img style="position:absolute;top: 10px;left: 80px;" src="https://media.giphy.com/media/vguS4F0xULRD3WRMEy/giphy.gif">
+                              <img style="position:absolute;top: 130px;left: 480px;" width="190px" src="https://media.giphy.com/media/AhS2bXe7uE3qcqugt9/giphy.gif">
+                               <!-- @ 号<img style="position:absolute;top: 180px;left: 900px;" src="https://media.giphy.com/media/W5vHGFzy4I18I/giphy.gif">  -->
+                               <img style="position:absolute;top: 360px;left: 380px;" src="https://media.giphy.com/media/xUOwGcKydcwDi5RjLG/giphy.gif">
+                              <img style="position:absolute;top: 160px;left: 800px;" width="80px" src="https://media.giphy.com/media/lOyNI5MxcyiPUpQdvs/giphy.gif">
+
+                              
+
+                              <img style="position:absolute;top: 160px;left: 300px;" src="https://media.giphy.com/media/dB80ygh8X22ru3rbKR/giphy.gif">
+                              <img style="position:absolute;top: 160px;left: 300px;" src="https://media.giphy.com/media/25LxRtoT97mGOfE6Lh/giphy.gif">
+                              <img style="position:absolute;top: 150px;left: 480px;" src="https://media.giphy.com/media/ookybbGmSu02enqvl4/giphy.gif" >
+                              <img style="position:absolute;top: 170px;left: 480px;"  src="https://media.giphy.com/media/WV3rdRWOOSdWr5CH3N/giphy.gif" />
+                              <img style="position:absolute;top: 150px;left: 480px;" src="https://media.giphy.com/media/LBf87ybud2UKY/giphy.gif" >                   
+                              
+                              <!-- dancingbaby <img style="position:absolute;top: 270px;left: 1100px;width: 350px;" src="https://i.gifer.com/LafN.gif"> -->
+                              <img style="position:absolute;top: 200px;left: 1400px;width: 200px;" src="https://media.giphy.com/media/l2QEd4romWZdXOlEY/giphy.gif">
+                              <!-- welcome -->
+                              <!-- <img style="position:absolute;top: 300px;left: 180px; width: 160px;" src="https://i.gifer.com/PdCO.gif"> -->
+                              <!-- <img style="position:absolute;top: 200px;left: 1800px;width: 480px;" src="https://i.gifer.com/3Hvu.gif"> -->
+
+
+                              
+
+                              <img style="position:absolute;top: 500px;left: 2200px;width: 280px;" src="https://i.gifer.com/2DoD.gif">
+                              
+                              <img style="position:absolute;top: 250px;left: 1700px;width: 150px;" src="https://i.gifer.com/HE9H.gif">
+                              <img style="position:absolute;top: 380px;left: 900px;" width="280px" src="https://imgix.gizmodo.com.au/content/uploads/sites/2/2019/09/19/cv40ev7roca6npnep6sw.gif?auto=format&fit=fill&q=65&w=720&fm=gif">
+                              <img style="position:absolute;top: 250px;left: 2100px; width: 50px;" src="https://www.oocities.org/warblingotter/candle.gif">
+                             
+
+
+
+                               <div class="box"></div>
+                               <script src="./draglinks.js" type="text/javascript"></script>
+
+                              
+                            
+                            </div>
+
+                        </div>
+
+                      </div>
+
+                      <script id="slider-planes-vs" type="x-shader/x-vertex">
+                        #ifdef GL_ES
+                        precision mediump float;
+                        #endif
+                      
+                        // default mandatory attributes
+                        attribute vec3 aVertexPosition;
+                        attribute vec2 aTextureCoord;
+                      
+                        // those projection and model view matrices are generated by the library
+                        // it will position and size our plane based on its HTML element CSS values
+                        uniform mat4 uMVMatrix;
+                        uniform mat4 uPMatrix;
+                      
+                        // this is generated by the library based on the sampler name we provided
+                        // it will be used to map adjust our texture coords so the texture will fit the plane
+                        uniform mat4 planeTextureMatrix;
+                      
+                        // texture coord varying that will be passed to our fragment shader
+                        varying vec2 vTextureCoord;
+                      
+                        void main() {
+                          // apply our vertex position based on the projection and model view matrices
+                          gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+                      
+                          // varying
+                          // use texture matrix and original texture coords to generate accurate texture coords
+                          vTextureCoord = (planeTextureMatrix * vec4(aTextureCoord, 0.0, 1.0)).xy;
+                        }
+                      </script>
+                      <script id="slider-planes-fs" type="x-shader/x-fragment">
+                        #ifdef GL_ES
+                        precision mediump float;
+                        #endif
+                      
+                        // our texture coords varying
+                        varying vec2 vTextureCoord;
+                      
+                        // our texture sampler (see how its name matches the data-sampler attribute on our image tags)
+                        uniform sampler2D planeTexture;
+                        // our opacity uniform that goes from 0 to 1
+                        uniform float uOpacity;
+                      
+                        void main( void ) {
+                                  // map our texture to the varying texture coords
+                                  vec4 finalColor = texture2D(planeTexture, vTextureCoord);
+                      
+                        // the distance from this point to the left edge is a float from 0 to 1
+                        float distanceToLeft = distance(vec2(0.0, vTextureCoord.y), vTextureCoord);
+                      
+                        // calculate an effect that goes from 0 to 1 depenging on uOpacity and distanceToLeft
+                        float spreadFromLeft = clamp((uOpacity * (1.0 - distanceToLeft) - 1.0) + uOpacity * 2.0, 0.0, 1.0);
+                      
+                        // handle pre-multiplied alpha on rgb values and use spreadFromLeft as alpha.
+                        finalColor = vec4(vec3(finalColor.rgba * spreadFromLeft), spreadFromLeft);
+                      
+                        // this is it
+                        gl_FragColor = finalColor;
+                        }
+                      </script>
+                      
+                      
+                      <script id="distortion-vs" type="x-shader/x-vertex">
+                        #ifdef GL_ES
+                        precision mediump float;
+                        #endif
+                      
+                        // default mandatory attributes
+                        attribute vec3 aVertexPosition;
+                        attribute vec2 aTextureCoord;
+                      
+                        // our displacement texture matrix uniform
+                        uniform mat4 displacementTextureMatrix;
+                      
+                        // mouse position and direction uniforms
+                        uniform vec2 uMousePos;
+                        uniform float uDirection;
+                      
+                        // custom varyings
+                        varying vec2 vTextureCoord;
+                        varying vec2 vDispTextureCoord;
+                        varying vec2 vMouseTexCoords;
+                      
+                        void main() {
+                          gl_Position = vec4(aVertexPosition, 1.0);
+                      
+                          // varyings
+                          vTextureCoord = aTextureCoord;
+                          vDispTextureCoord = (displacementTextureMatrix * vec4(aTextureCoord, 0.0, 1.0)).xy;
+                      
+                          // we will handle our mouse coords here for better performance
+                          // get our texture coords for both directions
+                          vec2 mouseHorizontalTexCoords = (uMousePos + 1.0) / 2.0;
+                          mouseHorizontalTexCoords.y = 0.5;
+                      
+                          vec2 mouseVerticalTexCoords = (uMousePos + 1.0) / 2.0;
+                          mouseVerticalTexCoords.x = 0.5;
+                      
+                          // use the right value for the right direction
+                          vMouseTexCoords = mix(mouseHorizontalTexCoords, mouseVerticalTexCoords, uDirection);
+                        }
+                      </script>
+                      <script id="distortion-fs" type="x-shader/x-fragment">
+                        #ifdef GL_ES
+                        precision mediump float;
+                        #endif
+                      
+                        // varyings
+                        varying vec2 vTextureCoord;
+                        varying vec2 vDispTextureCoord;
+                        varying vec2 vMouseTexCoords;
+                      
+                        // our render texture is basically what's being drawn in our canvas
+                        uniform sampler2D uRenderTexture;
+                        // the displacement texture we've loaded into our shader pass
+                        uniform sampler2D displacementTexture;
+                      
+                        // all our uniforms
+                        uniform float uDragEffect;
+                        uniform vec2 uMousePos;
+                        uniform vec2 uOffset;
+                        uniform float uDirection;
+                        uniform vec3 uBgColor;
+                      
+                        void main( void ) {
+                                  vec2 textureCoords = vTextureCoord;
+                      
+                                  // repeat and offset our displacement map texture coords for both slider directions
+                                  vec2 horizontalPhase = fract(vec2(vDispTextureCoord.x + uOffset.x, vDispTextureCoord.y + (uOffset.y / 3000.0)) / vec2(1.0, 1.0));
+                        vec2 verticalPhase = fract(vec2(vDispTextureCoord.x * (uOffset.x / 3000.0), vDispTextureCoord.y + uOffset.y) / vec2(1.0, 1.0));
+                      
+                        // use the correct repeated and offseted texture coords
+                        vec2 phase = mix(horizontalPhase, verticalPhase, uDirection);
+                        vec4 displacement = texture2D(displacementTexture, phase);
+                      
+                        // use our varying mouse texture coords
+                        vec2 mouseTexCoords = vMouseTexCoords;
+                      
+                        float distanceToMouse = distance(mouseTexCoords, textureCoords);
+                      
+                        // calculate an effect that goes from 0 to 1 depenging on uDragEffect and distanceToMouse
+                        float spreadFromMouse = clamp((uDragEffect * (1.0 - distanceToMouse) - 1.0) + uDragEffect * 2.0, 0.0, 1.0);
+                      
+                        // calculate our fish eye like distortions
+                        vec2 fishEye = (vec2(textureCoords - mouseTexCoords).xy) * pow(distanceToMouse, 2.5);
+                      
+                        // add a displacement based on our map and our time uniform
+                        float displacementEffect = displacement.r * 1.25;
+                      
+                        // spread our fish eye and displacement effects from our mouse
+                        // calculate for both directions
+                        vec2 horizontalTexCoords = textureCoords;
+                        horizontalTexCoords.x -= spreadFromMouse * fishEye.x * displacementEffect / 4.0;
+                        horizontalTexCoords.y -= spreadFromMouse * fishEye.y * displacementEffect;
+                      
+                        vec2 verticalTexCoords = textureCoords;
+                        verticalTexCoords.x -= spreadFromMouse * fishEye.x * displacementEffect;
+                        verticalTexCoords.y -= spreadFromMouse * fishEye.y * displacementEffect / 4.0;
+                      
+                        // use the right value for the right direction
+                        textureCoords = mix(horizontalTexCoords, verticalTexCoords, uDirection);
+                      
+                      
+                        // get our final colored and BW vec4
+                        vec4 finalColor = texture2D(uRenderTexture, textureCoords);
+                        float grey = dot(finalColor.rgb, vec3(0.299, 0.587, 0.114));
+                        vec4 finalGrey = vec4(vec3(grey), 1.0);
+                      
+                        // mix our both vec4 based on our spread value
+                        finalColor = mix(finalColor, finalGrey, spreadFromMouse * finalColor.a);
+                      
+                        // apply a grey background where we don't have nothing to draw
+                        finalColor = mix(vec4(uBgColor.r * spreadFromMouse / 255.0, uBgColor.g * spreadFromMouse / 255.0, uBgColor.b * spreadFromMouse / 255.0, spreadFromMouse), finalColor, finalColor.a);
+                      
+                        gl_FragColor = finalColor;
+                        }
+                      </script>
+                      <!-- partial -->
+                        <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js'></script>
+                      <script src='https://www.curtainsjs.com/build/curtains.min.js'></script><script  src="./script.js"></script>
+
+
+                    </div>
+                 </div>
+
+                
+            </section>
+            
+
+        </div>
+
+
+    </body>
+
+   
+
+</html>
